@@ -1,6 +1,6 @@
 const express = require("express");
 
-const itemService = require("../../../services/ItemService");
+const ItemService = require("../../../services/ItemService");
 
 module.exports = () => {
   const router = express.Router();
